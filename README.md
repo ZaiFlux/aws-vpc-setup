@@ -25,7 +25,8 @@ A Virtual Private Cloud (VPC) is a private network in AWS where you can launch a
 - Default AWS networking components (route table, NACL, DHCP option set)
 
 ## 📸 Screenshots
-(Add your AWS VPC screenshots here)
+
+![VPC Setup](Screenshot%202026-06-07%20191203.png)
 
 ## 🚀 Conclusion
 This project helped me understand the basics of AWS networking and how cloud infrastructure is structured using VPCs.
