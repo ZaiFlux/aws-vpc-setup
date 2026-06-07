@@ -22,10 +22,17 @@ A Virtual Private Cloud (VPC) is a private network in AWS where you can launch a
 ## 🧠 Key Concepts Learned
 - VPC (Virtual Private Cloud)
 - CIDR block
-- Default AWS networking components (route table, NACL, DHCP option set)
+- AWS networking fundamentals
+
+## ⚙️ Automatically Created Components
+When the VPC was created, AWS also automatically generated the following default networking components:
+
+- **Main Route Table** – Controls traffic routing within the VPC  
+- **Network Access Control List (NACL)** – Acts as a firewall at the subnet level  
+- **Security Group Framework** – Virtual firewall for controlling inbound and outbound traffic to resources  
+- **DHCP Option Set** – Provides network configuration such as DNS settings and domain names for instances  
 
 ## 📸 Screenshots
-
 ![VPC Setup](Screenshot%202026-06-07%20191203.png)
 
 ## 🚀 Conclusion
